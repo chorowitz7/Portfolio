@@ -67,3 +67,47 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+#microImage {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+.skillsIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+#jsImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#cssImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#htmlImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#excelImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#pythonImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#analyticsImage {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}

@@ -1,0 +1,57 @@
+html {
+    background-color: #f1edec;
+    color: #1a5d82; 
+    font-family: 'Rubik';
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+.navBar {
+    width: 100vw;
+}
+
+.navBarContainer {
+    background-color: #ffab9d;
+    color: #1a5d82;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.navItem {
+    color: #1a5d82;
+    font-family: 'Rubik';
+    font-size: 1.4vw;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.informationCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+#ic1 {
+    margin-bottom: 20px;
+}
+
+#ic2 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}

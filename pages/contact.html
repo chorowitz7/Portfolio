@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="navBar">
+        <nav class="navBarContainer">
+            <a class="navItem" href="../index.html">Home</a>
+            <a class="navItem" href="resume.html">Resume</a>
+            <a class="navItem" href="about.html">About</a>
+            <a class="navItem" href="">Projects</a>
+            <a class="navItem" href="contact.html">Contact</a>
+        </nav>
+    </div>
+    
+    <div class="contact-title">
+        <h1>Say Hello</h1>
+        <h2>This is my contact me form for my portfolio lol</h2>
+    </div>
+
+    <div class="contact-form">
+        <form action="../scripts/contact.php" method="post" id="contact-form">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+        <br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+        <br>
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+        </form>
+    </div>
+
+
+</body>
+</html>
